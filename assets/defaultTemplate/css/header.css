@@ -1,0 +1,108 @@
+body{
+  background: #eaecee;
+}
+
+header{
+
+  min-height: 15vh;
+  background: #fff;
+  box-shadow: 8px 8px 30px 9px #000c08;
+  margin: 0;
+
+}
+.header::after{
+  content: "";
+  display: block;
+  clear: both;
+  width: 100%;
+}
+
+.border{
+  border: 1px solid black;
+}
+
+.test-high{
+
+}
+
+.upperRow{
+  min-height: 100px;
+  height: 15vh;
+}
+.logo{
+  height: inherit;
+  display: flex;
+}
+
+.logo img{
+  max-height: 100%;
+  max-width: 100%;
+  align-self: center;
+}
+.flex-middle{
+
+}
+
+ul.menuItem{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+li.subMenu{
+  position: relative;
+  z-index: 1;
+  background: #f8f9ff;
+  font-weight: normal;
+  border: 1px solid black;
+  display: block;
+  list-style-type: none;
+
+}
+
+
+.user{
+
+}
+.user input[type='button']{
+  width: 40%;
+  margin: 0 4%;
+}
+.user input{
+  width: 100%;
+  margin: 5px;
+  overflow: hidden;
+}
+.user label{
+  margin: 8px 5px;
+  display: block;
+  text-align: right;
+  vertical-align: center;
+}
+
+.button{
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+  background: #000618;
+  color: rgb(255, 247, 255);
+  width: 40%;
+  margin: 2px;
+}
+.button:hover{
+  cursor: pointer;
+  background: #2a4444;
+  box-shadow: inset 13px -20px 20px -20px #2f6556
+}
+
+.buttonContainer{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ align-items: center;
+
+}

@@ -1,0 +1,49 @@
+.from{
+
+    padding: 50px;
+}
+.feedbackTitle  {
+    overflow: hidden;
+}
+.feedback  {
+    overflow: hidden;
+}
+.feedBack .from p,
+.feedBack .from input
+{
+    margin: 0;
+    padding: 0;
+    font-size: 24pt;
+    width: 100%;
+}
+.feedBack .from input{
+    width: 50%;
+}
+.textarea textarea{
+    font-size: 20pt;
+    display: block;
+    width: 80%;
+    margin: auto;
+    min-height: 100px;
+    height: 20vh;
+}
+.SendFeedBack .sendButton{
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    width: 200px;
+    background: #00adfffa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+.SendFeedBack .sendButton:hover{
+    background: #00acf0;
+}
+.SendFeedBack .sendButton:active{
+    background: #007bb4;
+}

@@ -1,0 +1,66 @@
+main{
+  background: #fff;
+  min-height: 75vh;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  overflow: hidden;
+}
+
+
+.registration .labels{
+  text-align: right;
+  font-size: 25px;
+
+}
+.registration .labels label{
+  display: block;
+  margin: 20px 0;
+}
+
+.registration .inputs{
+  font-size: 20px;
+ }
+.registration .inputs input{
+  display: block;
+  margin: 20px 0;
+}
+.registration .buttons{
+
+}
+.registration .buttons .loginButton{
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  width: 200px;
+  background: #00adfffa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+}
+.registration .buttons .loginButton:hover{
+  background: #00acf0;
+}
+.registration .buttons .loginButton:active{
+  background: #007bb4;
+}
+.registration .buttons .googleButton{
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  width: 200px;
+  background: blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+}
+
+

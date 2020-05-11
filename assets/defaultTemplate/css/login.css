@@ -1,0 +1,13 @@
+.massage{
+    border: 1px solid red;
+    margin: 0 auto;
+    min-height: 100px;
+    width: 50%;
+    color: red;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.massage p{
+    margin-left: 20px;
+}
